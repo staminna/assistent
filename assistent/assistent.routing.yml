@@ -1,0 +1,15 @@
+assistent.content:
+  path: '/'
+  defaults:
+    _controller: '\Drupal\assistent\Controller\AssistentController::content'
+    _title: 'Hi'
+  requirements:
+    _permission: 'access content'
+
+assistent.keys:
+  path: '/apikeys'
+  defaults:
+    _controller: '\Drupal\assistent\Controller\AssistentController::assistent_get_apikey'
+    _title: 'API Keys'
+  requirements:
+    _access: 'TRUE'

@@ -1,0 +1,49 @@
+assistent:
+  js:
+    js/assistent.js: {}
+    js/twig.js: {}
+    js/google_customsearch.js: {}
+    js/googlecal.js: {}
+    js/speech.js: {}
+  css:
+    theme:
+      css/assistent_stylesheet.css: {}
+annyang:
+  remote: https://github.com/TalAter/annyang/blob/master/annyang.js
+  version: 2.0.0
+  license:
+    name: MIT
+    url: https://github.com/TalAter/annyang/blob/master/LICENSE
+    gpl-compatible: true
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/annyang/2.0.0/annyang.min.js: { type: external, minified: true }
+speechkitt:
+  remote: https://cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.1.0/speechkitt.min.js
+  version: 0.1.0
+  license:
+    name: MIT
+    url: https://github.com/TalAter/annyang/blob/master/LICENSE
+    gpl-compatible: true
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.1.0/speechkitt.min.js: { type: external, minified: true }
+twig:
+  remote: https://github.com/justjohn/twig.js/blob/master/twig.js
+  version: 0.8.4
+  license: BSD
+  js:
+    https://github.com/justjohn/twig.js/blob/master/twig.js
+googlecal:
+  remote: https://apis.google.com/js/client.js
+  version: 3.0.0
+  license: Google
+  js:
+    https://apis.google.com/js/client.js: { type: external, minified: false }
+angular.angularjs:
+  remote: https://github.com/angular/angular.js
+  version: 1.4.4
+  license:
+    name: MIT
+    url: https://github.com/angular/angular.js/blob/master/LICENSE
+    gpl-compatible: true
+  js:
+    https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js: { type: external, minified: true }

@@ -1,0 +1,9 @@
+type: module
+name: Assistent
+description: 'Annyang based assistent interface module'
+package: Assistent
+core: 8.x
+configure: assistent.admin_settings
+libraries: assistent/assistent
+tags:
+ - ui
