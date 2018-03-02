@@ -17,7 +17,7 @@ class AssistentController extends ControllerBase {
     $obj = new \stdClass();
     $obj->label="API Keys for the assistent";
     $obj->data = array(
-        array('flickr','709b2efe5983f428a9a6477cb253efba&'),
+        array('flickr','Insert-your-API-Key-Here'),
         //and so on...
     );
     return new JsonResponse($obj);
